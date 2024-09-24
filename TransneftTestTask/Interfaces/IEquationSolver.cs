@@ -16,7 +16,7 @@ namespace TransneftTestTask.Interfaces
         /// <param name="a">Начало отрезка.</param>
         /// <param name="b">Конец отрезка.</param>
         /// <param name="accuracy">Точность.</param>
-        /// <returns>Решение уравнения.</returns>
+        /// <returns>Решение уравнения. Если есть ошибка при расчете, то возвращается 0.</returns>
         double Calculate(Func<double, double> mainFunction, Func<double, double> firstDerivativeFunc, Func<double, double> secondDerivativeFunc, double a, double b, double accuracy = 0.1);
     }
 }
