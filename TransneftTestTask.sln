@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransneftTestTask", "TransneftTestTask\TransneftTestTask.csproj", "{BF16ABB3-314D-4540-ADAB-914DBEA6CBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransneftTests", "TransneftTests\TransneftTests.csproj", "{D1D8C4A6-B445-43C4-934F-C99097A9B56D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF16ABB3-314D-4540-ADAB-914DBEA6CBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF16ABB3-314D-4540-ADAB-914DBEA6CBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF16ABB3-314D-4540-ADAB-914DBEA6CBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF16ABB3-314D-4540-ADAB-914DBEA6CBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D8C4A6-B445-43C4-934F-C99097A9B56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D8C4A6-B445-43C4-934F-C99097A9B56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D8C4A6-B445-43C4-934F-C99097A9B56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D8C4A6-B445-43C4-934F-C99097A9B56D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {603BC5B9-6926-4B08-AD2D-9A8222301D06}
+	EndGlobalSection
+EndGlobal
